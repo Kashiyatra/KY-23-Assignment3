@@ -1,0 +1,109 @@
+.circle {
+    display: absolute;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    position: absolute;
+    border-radius: 15px;
+}
+  
+.index_1_body {
+    display: absolute;
+    background: radial-gradient(ellipse at bottom, #291831 0%, #090a0f 100%) fixed;
+    overflow: hidden;
+    left:50%;
+    border-color: #000;
+}
+ .index_1_h1{
+    top:10px;
+    color:aliceblue;
+    align-self: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-left:30%;
+    background: -webkit-linear-gradient(white, #142638);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+ }
+ .prime_text{
+    color:aliceblue;
+    align-self: center;
+    font-size: 22px;
+    transform: translateY(-80px);
+    background: -webkit-linear-gradient(white, #142638);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .later_text{
+      color:aliceblue;
+    align-self: center;
+    font-size: 22px;
+    transform: translateY(-120px);
+    background: -webkit-linear-gradient(white, #142638);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
+.prime_headings{
+        color:aliceblue;
+        left:0;
+        font-size: 28px;
+        letter-spacing: 2px;
+        transform: translateY(-30px);
+        background: -webkit-linear-gradient(white, #142638);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+.later_headings{
+    color:aliceblue;
+        left:0;
+        font-size: 28px;
+        letter-spacing: 2px;
+        transform: translateY(-70px);
+        background: -webkit-linear-gradient(white, #142638);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+ 
+ @media only screen and (max-width: 600px) {
+    .index_1_h1{
+        color:aliceblue;
+        align-self: center;
+        font-size: 28px;
+        top:1px;
+        letter-spacing: 2px;
+        margin-left:15%;
+        background: -webkit-linear-gradient(white, #142638);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+     }
+     .index_1_p p{
+        color:aliceblue;
+        align-self: center;
+        font-size: 16px;
+    
+        background: -webkit-linear-gradient(white, #142638);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+     }
+     .prime_headings{
+        font-size:20px;
+        top:20px;
+        transform: translateY(-10px);
+     }
+     .later_headings{
+        font-size:20px;
+        transform: translateY(-10px);
+     }
+     .prime_text{
+        transform: translateY(-49px);
+        font-size: 14px;
+     }
+     .later_text{
+        font-size: 14px;
+        transform: translateY(-50px);
+     }
+ }

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KY_23!</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet"  type="text/css" href="styles_1.css">
+    </head>
+    <body>
+        <div class="index_1_body">
+
+            <h1 class="index_1_h1">DUTIES OF CA!!</h1>
+            <h3 class="prime_headings">REPRESENT:</h3>
+            <br>
+            <div class="index_1_p">
+                <p class="prime_text">Lorem ipsum dolor, sit amet consectetur adipisicing elitvakerf sdhcvbkaje hbcv skjedhb mvn aefcdhsvxReprehenderit, possimus excepturi, officia magni, dolore ratione nostrum nemo provident minus dignissimos reiciendis. Harum dolores corrupti nisi alias vero distinctio quasi molestiae?</p>
+                <h3 class="later_headings">ORGANIZE:</h3>
+                <br>
+                <p class="later_text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque similique minima obcaecati ipsum alias maxime. Autem, animi dignissimos alias et nisi harum aspernatur non beatae ex dolore odit fuga dolorum?</p>
+                <h3 class="later_headings">CONSEPTUALIZE:</h3>
+                <br>
+                <p class="later_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nesciunt? Deserunt, necessitatibus ad vitae consequuntur hic deleniti! Natus architecto ratione, reprehenderit ipsa, laborum iste voluptatem vel, suscipit voluptas mollitia fugiat.</p>
+                </div>
+            
+            
+            <script>
+                document.onmousemove = animateCircles; // circle follow mouse
+
+                var colors = ['rgb(148, 229, 215)', 'rgb(226, 189, 234)', 'rgb(243, 171, 218)','#FFF','rgb(226, 178, 178)','rgb(237, 238, 160)']
+                
+                function animateCircles(event) {
+                var circle = document.createElement("div");
+                circle.setAttribute("class", "circle");
+                document.body.appendChild(circle); // adds function to body
+                
+                // adds motion
+                circle.style.left = event.clientX + 'px';
+                circle.style.top = event.clientY + 'px';
+                
+                // randomize color
+                var color = colors[Math.floor(Math.random() * colors.length)];
+                circle.style.borderColor = color;
+                
+                // adds animation
+                circle.style.transition = "all 0.35s linear 0s";
+                
+                circle.style.left = circle.offsetLeft - 30 + 'px';
+                circle.style.top = circle.offsetTop - 30 + 'px';
+                
+                circle.style.width = "50px";
+                circle.style.height = "50px";
+                circle.style.borderWidth = "15px";
+                circle.style.opacity = 0;
+                }
+
+
+
+
+                
+
+            </script>  
+        </div> 
+
+    </body>
+</html>
