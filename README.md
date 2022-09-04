@@ -1,3 +1,5 @@
+###(Only the navbar,sidebar,kashiyatra themepage and benefits are working 😕 due to time constraints)
+
 # KY'23-Assignment3
 ## To-do:
 * You need to create a Campus Ambassador (CA) Portal from scratch. [KY-2020 CA Portal](https://ky-2020.netlify.app/)

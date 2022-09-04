@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    overflow:hidden;
+}
+
+.nightSection{
+    background-image: url("../data/kashi-night-pic.png");
+    background-size:cover;
+    background-position:center;
+    height: 95vh;
+    width:100vw;
+    display:grid;
+    justify-content:center;
+    align-items:center;
+    border:15px solid rgba(255, 255, 255,0.5);
+    position:absolute;
+    overflow:hidden;
+
+
+}
+h2{
+    font-size:4rem;
+    padding-top:5rem;
+    padding-right:30rem;
+    
+    
+
+}
