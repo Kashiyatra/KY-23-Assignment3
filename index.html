@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KASHIYATRA'23</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="data:image/jpeg;base64,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">
+        <h1>KASHIYATRA</h1>
+        <a href="#" class="menu-btn" id="open-nav"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAJFBMVEX///8AAADIyMhra2uenp4eHh5WVlZycnIRERGioqKxsbFOTk45BqjBAAAAxUlEQVR4nO3cSwrDMAxAwfSTJm3vf9+uCtk4IGOQHGZO4LezEdayAAAAAAAAAAAAAAAAAAAjbI8ZbYHC/TajPVC4Zh+2y6pQYXkKFdanUGF9Co+yz9opUHifU6AQAAAAAACYxftZ1WdQYfYQqe07qLDu/PClUKHCdAoVKsynUOFfdkfbqHvp9d8WAAAAAADALLI/ZXcKFGZPmDoFCuvOD8/YGqGwPoUK61OosD6FR9ffX3r9HbQAAAAAAAAAAAAAAAAAQNsPDyAn3X28l7QAAAAASUVORK5CYII="></a>
+    </header>
+
+    <nav class="hide">
+        <a id="close-nav">X</a>
+        <a href="#ca1">WHY CA</a>
+        <a href="#ca2">Duties</a>
+        <a href="#ca3">Benefits</a>
+        <a href="#ca4">Contact</a>
+        <a href="login.html">Login</a>
+    </nav>
+
+    <div id="ca1" class="ca1">
+        <img class="img" src="https://img.freepik.com/free-vector/mountain-road-with-night-seaview-empty-highway_107791-2154.jpg?">
+        <h1>WHY CAMPUS AMBASSADOR</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <br>
+        <p>Become a Leader</p>
+        <p>Update your organising skills</p>
+        <p>expand your creative horizons</p>
+        <p>Get the exposure to the marketing</p>
+        <button><a href="login.html">Become a Campus Ambassador</a></button>
+    </div>
+
+    <div class="ca2" id="ca2">
+        <canvas class="theme">
+
+        </canvas>    
+        <h1>Duties of the CA</h1>
+        <p>Campus Ambassador is the face of the Kashiyatra.They act as the link between Kashiyatra and their college and are the first point of contacts for the students.Following are the Responsibulities one is Required to take:</p>
+        <div class="flex">
+             <div>
+                <img class="a" src="">
+                <h4 class="b">Represent</h4>
+                <p class="c">Represent and Exemplify Kashiyatra in your collrge among your peers</p>
+                <img class="a" src="">
+                <h4 class="b">Publicize</h4>
+                <p class="c">Promote Kashiyatra by publicizing its events through social media platforms</p>
+                <img class="a" src="">
+                <h4 class="b">Conceptualize</h4>
+                <p class="c">Bring forth ideas and Proposals as valuable input for team Kashiyatra</p>
+                <img class="a" src="">
+                <h4 class="b">Organize</h4>
+                <p class="c">Conduct workshops and Promotional Events for Kashiyatra in your College</p>
+             </div>
+        </div>
+    </div>
+
+    <div class="ca3" id="ca3">
+        <div>
+            <h3>Brownie points</h3>
+            <div class="p1" id="p">
+                <h5>CERTIFICATION</h5>
+                <p>Certificate of apperication underdesigned by Kashiyatra IIT(BHU) Varanasi to all CA's</p>
+            </div>
+            <div class="p1" id="p2">
+                <h5>PRIZES</h5>
+                <p>Exciting prizes and goodies for top 5 campus ambassadors</p>
+            </div>
+            <div class="p1" id="p3">
+                <h5>CONCERT PASSES</h5>
+                <p>get premium access to concerts and EDM nights</p>
+            </div>
+            <div class="p1" id="p4">
+                <h5>OFFICIAL MERCHANDISE</h5>
+                <p>Own and flaunt official branded Kashiyatra merchandise</p>
+            </div>
+            <div class="p1" id="p5">
+                <h5>MEET THE STARS</h5>
+                <p>Get a chance to take selfie with famous celebs & artists</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="ca4">
+        <div class="detail">
+            <div class="mail">
+            <h3 class="e">Contacts</h3>
+            <h4>Publicity</h4>
+            <p>Utkarsh Dwivedi</p>
+            <a class="e" href="mailto:utkarsh.dwivedi.mec21@itbhu.ac.in">utkarsh.dwivedi.mec21@itbhu.ac.in</a><br>
+            <a href="tel:9030964888">call: (788)043-9042</a>
+            <p>Sharad Ghodke</p>
+            <a class="e" href="mailto:majjiga.deepaksai.ece21@itbhu.ac.in">sharad.dghodke.mec17@itbhu.ac.in</a><br>
+            <a href="tel:6303982895">call: 6303982895</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+           <div class="row">
+            <div class="footer-col">
+               <h4>Quick Links</h4>
+               <ul>
+                <li><a href="login.html">Register</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+               </ul>
+            </div>
+            <div class="footer-col" id="f1">
+                <h4>Video&Images</h4>
+                <ul>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="https://youtu.be/4qjQGb3wqRI">Aftermovie</a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="f2">
+                <h4>Campus AMBASSADOR</h4>
+                <ul>
+                    <li><a href="#ca1">Why CA</a></li>
+                    <li><a href="#">Rules and Regulations</a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="f3">
+                <h4>Learn More</h4>
+                <ul>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">previous years sponsers</a></li>
+                </ul>
+            </div>
+           </div>
+        </div>
+    </footer>
+
+    <div class="copy">
+        <p>COPYRIGHT &copy; 2022 KASHIYATRA IIT-BHU</p>
+    </div>
+    
+    <script src="script.jsx"></script> 
+</body>
+</html>
