@@ -1,0 +1,42 @@
+{
+  "main": {
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"IIT BHU",
+        "degree":"BTECH",
+        "graduated":"2025",
+        "description":"Great College."
+      }
+    ]
+  }
+  
+}
