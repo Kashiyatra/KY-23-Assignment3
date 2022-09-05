@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Simple-React-UI/static/css/main.4d4cc0ac.chunk.css",
+    "main.js": "/Simple-React-UI/static/js/main.c04259b5.chunk.js",
+    "main.js.map": "/Simple-React-UI/static/js/main.c04259b5.chunk.js.map",
+    "runtime-main.js": "/Simple-React-UI/static/js/runtime-main.09f3d8eb.js",
+    "runtime-main.js.map": "/Simple-React-UI/static/js/runtime-main.09f3d8eb.js.map",
+    "static/js/2.6c8c402f.chunk.js": "/Simple-React-UI/static/js/2.6c8c402f.chunk.js",
+    "static/js/2.6c8c402f.chunk.js.map": "/Simple-React-UI/static/js/2.6c8c402f.chunk.js.map",
+    "index.html": "/Simple-React-UI/index.html",
+    "static/css/main.4d4cc0ac.chunk.css.map": "/Simple-React-UI/static/css/main.4d4cc0ac.chunk.css.map",
+    "static/js/2.6c8c402f.chunk.js.LICENSE.txt": "/Simple-React-UI/static/js/2.6c8c402f.chunk.js.LICENSE.txt",
+    "static/media/About.c8a31994.png": "/Simple-React-UI/static/media/About.c8a31994.png",
+    "static/media/index.css": "/Simple-React-UI/static/media/HeaderBg.8556a999.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09f3d8eb.js",
+    "static/js/2.6c8c402f.chunk.js",
+    "static/css/main.4d4cc0ac.chunk.css",
+    "static/js/main.c04259b5.chunk.js"
+  ]
+}
