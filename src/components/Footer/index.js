@@ -103,18 +103,12 @@ const Footer = ({ t }) => {
                   href="#"
                   src="twitter.svg"
                 />
-                <SocialLink
-                  href="#"
-                  src="linkedin.svg"
-                />
+                
                 <SocialLink
                   href="#"
                   src="instagram.svg"
                 />
-                <SocialLink
-                  href="#"
-                  src="medium.svg"
-                />
+                
               </S.FooterContainer>
             </Row>
           </Container>
