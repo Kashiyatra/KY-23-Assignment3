@@ -96,23 +96,23 @@ const Footer = ({ t }) => {
               </S.NavLink>
               <S.FooterContainer>
                 <SocialLink
-                  href="https://github.com/username"
+                  href="#"
                   src="github.svg"
                 />
                 <SocialLink
-                  href="https://twitter.com/username"
+                  href="#"
                   src="twitter.svg"
                 />
                 <SocialLink
-                  href="https://www.linkedin.com/in/username/"
+                  href="#"
                   src="linkedin.svg"
                 />
                 <SocialLink
-                  href="https://github.com/username/"
+                  href="#"
                   src="instagram.svg"
                 />
                 <SocialLink
-                  href="https://medium.com/username/"
+                  href="#"
                   src="medium.svg"
                 />
               </S.FooterContainer>
