@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7e95f563.css",
+    "main.js": "/static/js/main.b71b9466.js",
+    "static/js/787.4e439b2b.chunk.js": "/static/js/787.4e439b2b.chunk.js",
+    "static/media/grp142.png": "/static/media/grp142.e684f77edf6a3e211a53.png",
+    "static/media/grp135right.png": "/static/media/grp135right.eab9582b6119e6602fa4.png",
+    "static/media/grp135.png": "/static/media/grp135.b41e00c685c4a8a97024.png",
+    "static/media/Gunman.png": "/static/media/Gunman.26d533371cb9b400c865.png",
+    "static/media/Rectangle5.png": "/static/media/Rectangle5.9ebf37646ea4c584ac82.png",
+    "static/media/Rectangle6.png": "/static/media/Rectangle6.a412ad193d7f23e94d84.png",
+    "static/media/image5.png": "/static/media/image5.663197029dd678739296.png",
+    "static/media/image6.png": "/static/media/image6.3913a819adcfa15e7f67.png",
+    "static/media/Rectangle4.png": "/static/media/Rectangle4.974b69cba68df34e8348.png",
+    "static/media/image3.png": "/static/media/image3.5c8c5a4a545b2bafb4d7.png",
+    "static/media/image.jpg": "/static/media/image.7124cbabe4ca78ca7a72.jpg",
+    "static/media/RectangleBg.png": "/static/media/RectangleBg.bc48cbf463e6a9c97a22.png",
+    "static/media/imageFirstBg1.jpg": "/static/media/imageFirstBg1.05d939431aa93eb5a338.jpg",
+    "static/media/image2.jpg": "/static/media/image2.83fda92f3604c300c282.jpg",
+    "static/media/GameOfSquids-1GMVL.ttf": "/static/media/GameOfSquids-1GMVL.e0727d0bce17b79e412d.ttf",
+    "static/media/Rectangle.png": "/static/media/Rectangle.80b1885ee82aa65980de.png",
+    "index.html": "/index.html",
+    "main.7e95f563.css.map": "/static/css/main.7e95f563.css.map",
+    "main.b71b9466.js.map": "/static/js/main.b71b9466.js.map",
+    "787.4e439b2b.chunk.js.map": "/static/js/787.4e439b2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e95f563.css",
+    "static/js/main.b71b9466.js"
+  ]
+}
