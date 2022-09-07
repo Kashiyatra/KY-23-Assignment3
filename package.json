@@ -43,10 +43,6 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yeshan333/landy-gatsby-starter"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
