@@ -1,7 +1,6 @@
 {
-  "name": "gatsby-landy-starter",
+  "name": "ashish_site",
   "version": "0.1.0",
-  "license": "MIT",
   "keywords": [
     "gatsby",
     "gatsby-starter",
@@ -9,7 +8,7 @@
     "landy",
     "landing page"
   ],
-  "description": "Landy is a free React landing page template designed for developers and startups.",
+  "description": "Kashiyatra_Site",
   "private": true,
   "dependencies": {
     "@loadable/component": "^5.14.1",
