@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>KY_23!</title>
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet"  type="text/css" href="contact_us.css">
+    </head>
+    <body>
+        <div class="contact_us_body">
+            <div class="typing animate"></div>
+            <br>
+            
+            <div class="Other_details">
+                
+                
+                <h1>Contacts & Emails</h1>
+                <br>
+                <h1>Publicity :</h1>
+                <br>
+                <h3>Utkarsh Dwivedi</h3>
+                <br>
+                <p>utkarsh.dwivedi.mec17@itbhu.ac.in</p>
+                <hr>
+                <p>Call (788)043-9042</p>
+                <h3>Sharad Ghodke</h3>
+                <p>sharad.dghodke.mec17@itbhu.ac.in</p>
+                <hr>
+                <p>Call (896)285-1919</p>
+                <br>
+
+
+                
+                
+            </div>
+        </div>
+
+
+
+        <script>
+            document.onmousemove = animateCircles; // circle follow mouse
+
+            var colors = ['rgb(148, 229, 215)', 'rgb(226, 189, 234)', 'rgb(243, 171, 218)','#FFF','rgb(226, 178, 178)','rgb(237, 238, 160)']
+            
+            function animateCircles(event) {
+            var circle = document.createElement("div");
+            circle.setAttribute("class", "circle");
+            document.body.appendChild(circle); // adds function to body
+            
+            // adds motion
+            circle.style.left = event.clientX + 'px';
+            circle.style.top = event.clientY + 'px';
+            
+            // randomize color
+            var color = colors[Math.floor(Math.random() * colors.length)];
+            circle.style.borderColor = color;
+            
+            // adds animation
+            circle.style.transition = "all 0.35s linear 0s";
+            
+            circle.style.left = circle.offsetLeft - 30 + 'px';
+            circle.style.top = circle.offsetTop - 30 + 'px';
+            
+            circle.style.width = "50px";
+            circle.style.height = "50px";
+            circle.style.borderWidth = "15px";
+            circle.style.opacity = 0;
+            }
+
+
+
+
+            
+
+        </script>  
+        
+    </body>
+</html>
