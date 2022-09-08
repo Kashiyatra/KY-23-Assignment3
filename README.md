@@ -1,17 +1,70 @@
-# KY'23-Assignment3
-## To-do:
-* You need to create a Campus Ambassador (CA) Portal from scratch. [KY-2020 CA Portal](https://ky-2020.netlify.app/)
-* The CA portal must have a Theme Section and a Footer.
-* Out  of 5 other parts such as Duties, Benefits, Contact, Signin/SignUp, Why CA, You can choose any 3 and include it in the portal.
-* It will be a great addition if smooth scrolling, glass morphism and good animations are used.
-* Use ReactJs for this task.
-* Refer [Framer motion](https://www.framer.com/motion/), [React motion](https://www.npmjs.com/package/react-motion) etc. for animations.
+# Getting Started with Create React App
 
-## How to submit
-* Fork this repo.
-* Clone it to your local, use any IDE of your choice and, 
-* Add/create the files you want with the **optimized size images** (use any online image size optimizer) and begin with your code.
-* Commit your changes and push your code by making a pull request.
-* Deploy your code on Github pages, netlify, or any other web hosting solution.
-* You must complete this task before 4 Sep at 11:59 pm IST.
-* Judging criteria will be your custom animation, bug-free, optimized code, with no commits made after the deadline has reached. The work's uniqueness will also be appreciated; feel free to add a custom scrollbar, custom cursor, preloader, etc, to stand out from others.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
